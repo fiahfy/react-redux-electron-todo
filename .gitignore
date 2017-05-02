@@ -35,5 +35,5 @@ node_modules
 
 #
 app/assets/*.js*
-main.js*
+/main.js*
 !.gitkeep
