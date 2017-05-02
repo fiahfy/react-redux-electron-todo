@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+    <script>
+      (function() {
+        const script = document.createElement('script')
+        script.src = process.env.HOT ? 'http://localhost:8080/assets/js/renderer.js' : './assets/js/renderer.js'
+        document.write(script.outerHTML)
+      }())
+    </script>
+  </body>
+</html>
