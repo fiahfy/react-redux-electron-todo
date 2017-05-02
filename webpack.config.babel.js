@@ -1,8 +1,8 @@
-import clientConfig from './webpack.config.client.babel';
-import serverConfig from './webpack.config.server.babel';
+import rendererConfig from './webpack.config.renderer.babel';
+import mainConfig from './webpack.config.main.babel';
 
 
 export default [
-  clientConfig,
-  serverConfig,
+  rendererConfig,
+  mainConfig,
 ];
