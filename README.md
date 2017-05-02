@@ -1,7 +1,7 @@
 # react-redux-electron-todo
 [![Build Status](https://travis-ci.org/fiahfy/react-redux-electron-todo.svg?branch=master)](https://travis-ci.org/fiahfy/react-redux-electron-todo)
 
-Universal Todo Sample with React.js and Redux  
+Electron Todo Sample with React.js and Redux  
 Inspire <https://github.com/erikras/react-redux-universal-hot-example>
 
 * React 15.5.4
@@ -21,7 +21,7 @@ $ yarn
 
 ## Run server
 ```
-$ yarn run start
+$ yarn start
 ```
 
 ## Run server (HMR)
